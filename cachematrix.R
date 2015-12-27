@@ -27,7 +27,7 @@ makeCacheMatrix <- function(data=numeric(),r=numeric(),c=numeric())
 
 ## cacheSolve recieves an object created by the function above (makeCacheMatrix)
 ## and performs one of the following actions:
-## 1) returns the cached inverse of the matrix (if the inverse has been already cached)
+## 1) returns the cached inverse of the matrix (if the inverse has been already calculated and cached)
 ## 2) stores in the object the inverse of the matrix. The inverse can be gotten later by using the $getinverse method.
 cacheSolve <- function(data,...)
 {
